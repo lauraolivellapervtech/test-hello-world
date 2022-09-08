@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  hello:
+    build: ./
+    command: python3 main.py
+    container_name: test
+    image: test:v0.0.0
